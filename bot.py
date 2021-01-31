@@ -28,7 +28,7 @@ updater = Updater(token=TOKEN, use_context=True)
 dispatcher = updater.dispatcher
 
 def Start(update, context):
-	update.effective_message.reply_text("Hai!")
+	update.effective_message.reply_text("You dumb?")
 
 def Reply(update, context):
 	msg = update.effective_message.text
